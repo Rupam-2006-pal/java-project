@@ -1,0 +1,330 @@
+=====================================
+  Welcome to Student Grade Tracker
+=====================================
+
+Menu:
+1. Initialize Student Database
+2. Add New Student(s)
+3. Delete a Student
+4. Update a Student
+5. View All Students
+6. Exit
+Enter your choice (1-6): 1
+        Enter the number of students to initialize: 4
+        1.
+                Name: Rupam Pal
+                Enter the marks for four subjects (out of 100) :
+                        Math: 99
+                        Computer Science: 99.9
+                        Physics: 91
+                        Finance: 98
+        2.
+                Name: Pritam Dey
+                Enter the marks for four subjects (out of 100) :
+                        Math: 98
+                        Computer Science: 99
+                        Physics: 87
+                        Finance: 95
+        3.
+                Name: Aritra Kumar
+                Enter the marks for four subjects (out of 100) :
+                        Math: 86
+                        Computer Science: 94
+                        Physics: 81
+                        Finance: 100
+        4.
+                Name: Bishal Jana
+                Enter the marks for four subjects (out of 100) :
+                        Math: 95
+                        Computer Science: 90
+                        Physics: 99
+                        Finance: 71
+Student database initialized successfully.
+
+
+Menu:
+1. Initialize Student Database
+2. Add New Student(s)
+3. Delete a Student
+4. Update a Student
+5. View All Students
+6. Exit
+Enter your choice (1-6): 2
+        How many students to add: 2
+        1.
+                Name: Saoli Kole
+                Enter the marks for four subjects (out of 100) :
+                        Math: 99
+                        Computer Science: 100
+                        Physics: 96
+                        Finance: 94
+        2.
+                Name: Sneha Nag
+                Enter the marks for four subjects (out of 100) :
+                        Math: 100
+                        Computer Science: 96
+                        Physics: 82
+                        Finance: 79
+        [+] 2 student(s) added successfully.
+
+Menu:
+1. Initialize Student Database
+2. Add New Student(s)
+3. Delete a Student
+4. Update a Student
+5. View All Students
+6. Exit
+Enter your choice (1-6): 5
+        ===============================================
+        Student ID   : NBdB3
+        Name         : Rupam Pal
+        Grade        : A+
+        Average      : 96.97
+        -----------------------------------------------
+        | Subject            |   Marks |
+        -----------------------------------------------
+        | Math               |   99.00 |
+        | Computer Science   |   99.90 |
+        | Physics            |   91.00 |
+        | Finance            |   98.00 |
+        -----------------------------------------------
+        | Highest mark       |   99.90 |
+        | Lowest mark        |   91.00 |
+        ===============================================
+        ===============================================
+        Student ID   : SPZx6
+        Name         : Pritam Dey
+        Grade        : A+
+        Average      : 94.75
+        -----------------------------------------------
+        | Subject            |   Marks |
+        -----------------------------------------------
+        | Math               |   98.00 |
+        | Computer Science   |   99.00 |
+        | Physics            |   87.00 |
+        | Finance            |   95.00 |
+        -----------------------------------------------
+        | Highest mark       |   99.00 |
+        | Lowest mark        |   87.00 |
+        ===============================================
+        ===============================================
+        Student ID   : Iavu8
+        Name         : Aritra Kumar
+        Grade        : A+
+        Average      : 90.25
+        -----------------------------------------------
+        | Subject            |   Marks |
+        -----------------------------------------------
+        | Math               |   86.00 |
+        | Computer Science   |   94.00 |
+        | Physics            |   81.00 |
+        | Finance            |  100.00 |
+        -----------------------------------------------
+        | Highest mark       |  100.00 |
+        | Lowest mark        |   81.00 |
+        ===============================================
+        ===============================================
+        Student ID   : mCLw6
+        Name         : Bishal Jana
+        Grade        : A
+        Average      : 88.75
+        -----------------------------------------------
+        | Subject            |   Marks |
+        -----------------------------------------------
+        | Math               |   95.00 |
+        | Computer Science   |   90.00 |
+        | Physics            |   99.00 |
+        | Finance            |   71.00 |
+        -----------------------------------------------
+        | Highest mark       |   99.00 |
+        | Lowest mark        |   71.00 |
+        ===============================================
+        ===============================================
+        Student ID   : ZEvsj
+        Name         : Saoli Kole
+        Grade        : A+
+        Average      : 97.25
+        -----------------------------------------------
+        | Subject            |   Marks |
+        -----------------------------------------------
+        | Math               |   99.00 |
+        | Computer Science   |  100.00 |
+        | Physics            |   96.00 |
+        | Finance            |   94.00 |
+        -----------------------------------------------
+        | Highest mark       |  100.00 |
+        | Lowest mark        |   94.00 |
+        ===============================================
+        ===============================================
+        Student ID   : 2Gu1P
+        Name         : Sneha Nag
+        Grade        : A
+        Average      : 89.25
+        -----------------------------------------------
+        | Subject            |   Marks |
+        -----------------------------------------------
+        | Math               |  100.00 |
+        | Computer Science   |   96.00 |
+        | Physics            |   82.00 |
+        | Finance            |   79.00 |
+        -----------------------------------------------
+        | Highest mark       |  100.00 |
+        | Lowest mark        |   79.00 |
+        ===============================================
+
+Menu:
+1. Initialize Student Database
+2. Add New Student(s)
+3. Delete a Student
+4. Update a Student
+5. View All Students
+6. Exit
+Enter your choice (1-6): 3
+        Enter Student ID to delete: NBdB3
+        [-] Student deleted successfully.
+
+Menu:
+1. Initialize Student Database
+2. Add New Student(s)
+3. Delete a Student
+4. Update a Student
+5. View All Students
+6. Exit
+Enter your choice (1-6): 4
+        Enter Student ID to update: NBdB3
+                [!] Student not found.
+
+Menu:
+1. Initialize Student Database
+2. Add New Student(s)
+3. Delete a Student
+4. Update a Student
+5. View All Students
+6. Exit
+Enter your choice (1-6): 4
+        Enter Student ID to update: SPZx6
+        ===============================================
+        Student ID   : SPZx6
+        Name         : Pritam Dey
+        Grade        : A+
+        Average      : 94.75
+        -----------------------------------------------
+        | Subject            |   Marks |
+        -----------------------------------------------
+        | Math               |   98.00 |
+        | Computer Science   |   99.00 |
+        | Physics            |   87.00 |
+        | Finance            |   95.00 |
+        -----------------------------------------------
+        | Highest mark       |   99.00 |
+        | Lowest mark        |   87.00 |
+        ===============================================
+                1. Update name
+                2. Update marks
+                3. Not now
+                Choose: 2
+                        1. Math
+                        2. Computer Science
+                        3. Physics
+                        4. Finance
+                        Choose: 4
+                                Enter new marks :81
+
+Menu:
+1. Initialize Student Database
+2. Add New Student(s)
+3. Delete a Student
+4. Update a Student
+5. View All Students
+6. Exit
+Enter your choice (1-6): 5
+        ===============================================
+        Student ID   : SPZx6
+        Name         : Pritam Dey
+        Grade        : A+
+        Average      : 91.25
+        -----------------------------------------------
+        | Subject            |   Marks |
+        -----------------------------------------------
+        | Math               |   98.00 |
+        | Computer Science   |   99.00 |
+        | Physics            |   87.00 |
+        | Finance            |   81.00 |
+        -----------------------------------------------
+        | Highest mark       |   99.00 |
+        | Lowest mark        |   81.00 |
+        ===============================================
+        ===============================================
+        Student ID   : Iavu8
+        Name         : Aritra Kumar
+        Grade        : A+
+        Average      : 90.25
+        -----------------------------------------------
+        | Subject            |   Marks |
+        -----------------------------------------------
+        | Math               |   86.00 |
+        | Computer Science   |   94.00 |
+        | Physics            |   81.00 |
+        | Finance            |  100.00 |
+        -----------------------------------------------
+        | Highest mark       |  100.00 |
+        | Lowest mark        |   81.00 |
+        ===============================================
+        ===============================================
+        Student ID   : mCLw6
+        Name         : Bishal Jana
+        Grade        : A
+        Average      : 88.75
+        -----------------------------------------------
+        | Subject            |   Marks |
+        -----------------------------------------------
+        | Math               |   95.00 |
+        | Computer Science   |   90.00 |
+        | Physics            |   99.00 |
+        | Finance            |   71.00 |
+        -----------------------------------------------
+        | Highest mark       |   99.00 |
+        | Lowest mark        |   71.00 |
+        ===============================================
+        ===============================================
+        Student ID   : ZEvsj
+        Name         : Saoli Kole
+        Grade        : A+
+        Average      : 97.25
+        -----------------------------------------------
+        | Subject            |   Marks |
+        -----------------------------------------------
+        | Math               |   99.00 |
+        | Computer Science   |  100.00 |
+        | Physics            |   96.00 |
+        | Finance            |   94.00 |
+        -----------------------------------------------
+        | Highest mark       |  100.00 |
+        | Lowest mark        |   94.00 |
+        ===============================================
+        ===============================================
+        Student ID   : 2Gu1P
+        Name         : Sneha Nag
+        Grade        : A
+        Average      : 89.25
+        -----------------------------------------------
+        | Subject            |   Marks |
+        -----------------------------------------------
+        | Math               |  100.00 |
+        | Computer Science   |   96.00 |
+        | Physics            |   82.00 |
+        | Finance            |   79.00 |
+        -----------------------------------------------
+        | Highest mark       |  100.00 |
+        | Lowest mark        |   79.00 |
+        ===============================================
+
+Menu:
+1. Initialize Student Database
+2. Add New Student(s)
+3. Delete a Student
+4. Update a Student
+5. View All Students
+6. Exit
+Enter your choice (1-6): 6
+Exiting... Thank you for using Student Grade Tracker!
